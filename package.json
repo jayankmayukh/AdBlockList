@@ -1,0 +1,25 @@
+{
+  "name": "adblocklist",
+  "version": "0.0.1",
+  "description": "Combined list from https://v.firebog.net/hosts/lists.php?type=tick meant for personal use.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayankmayukh/AdBlockList.git"
+  },
+  "author": "Jayank Mayukh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jayankmayukh/AdBlockList/issues"
+  },
+  "homepage": "https://github.com/jayankmayukh/AdBlockList#readme",
+  "dependencies": {
+    "is-valid-domain": "^0.1.6",
+    "node-fetch": "^3.2.1"
+  }
+}
